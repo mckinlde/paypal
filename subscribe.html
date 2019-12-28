@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DEALERCHIMP</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="form.css" >
+  <script src="form.js"></script>
+  
+  <style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a {
+  color: white;
+}
+</style>
+
+</head>
+<body >
+  <h1 style="text-align: center;">dealerchimp.com</h1><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+        <blockquote>Thank you for trying DealerChimp, we're glad you like it!
+          <br><br>While DealerChimp isn't free forever, you can sign up for an exclusive subscription to your local area.
+          <br><br>We offer the service as 1-month, 3-month, and year-long subscriptions.  You get a better deal for signing
+          up for longer timeframes, but all of them can be renewed at any time.  As long as you hold a current membership, you are the only person who can,
+          and we will tell any new prospects that your area is unavaliable.
+          <br><br>We use PayPal for easy, secure checkout.  Don't worry, you can still use a credit card if you want to. Just click whichever button corresponds with your preferred subscription length and check out on the next page.</blockquote>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+            <button class="button" style="vertical-align:middle"><span>
+          <a href="monthlyCheckout.html" style="vertical-align:middle">1 Month for $50.00</a></span></button>
+          <button class="button" style="vertical-align:middle"><span>
+          <a href="quarterlyCheckout.html">3 Months for $100.00</a></span></button>
+          <button class="button" style="vertical-align:middle"><span>
+          <a href="yearlyCheckout.html">1 Year for $300.00</a></span></button>
+          </div>
+          </div>
+          </div>
+
+    <p><br />
+      (c) 2019 DealerChimp, LLC, all rights reserved.</p>
+    </body>
+    </html>
